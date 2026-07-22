@@ -1,0 +1,644 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <title>SNSから相談できるWebサイト・LP制作｜KOTA Web Design</title>
+
+    <meta
+      name="description"
+      content="オンライン販売約6年の経験を活かすWeb制作者。XのDM・ココナラから、WebサイトやLPの制作をチャットで相談できます。"
+    />
+
+    <!-- OGP（SNSシェア用） -->
+    <meta
+      property="og:title"
+      content="KOTA Web Design｜X・ココナラから相談できるWeb制作"
+    />
+    <meta
+      property="og:description"
+      content="オンライン販売約6年の購入者視点を活かすWeb制作者。XのDM・ココナラから、WebサイトやLPの制作を相談できます。"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://kota-web-design.github.io/kota-design-lab/"
+    />
+    <meta
+      property="og:image"
+      content="https://kota-web-design.github.io/kota-design-lab/img/ogp-portfolio-20260713.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:image"
+      content="https://kota-web-design.github.io/kota-design-lab/img/ogp-portfolio-20260713.jpg"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css?v=20260722-8" />
+
+    <!-- FV background -->
+    <link
+      rel="preload"
+      as="image"
+      href="img/fv-web-production-desktop.webp"
+      type="image/webp"
+      media="(min-width: 769px)"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="img/fv-web-production-mobile-v2.webp"
+      type="image/webp"
+      media="(max-width: 768px)"
+    />
+
+    <!-- フォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Serif+JP:wght@400;500&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ファビコン -->
+    <link rel="icon" href="img/favicon.ico" sizes="64x64" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__inner">
+        <!-- ロゴ -->
+        <p class="header__logo">
+          <a href="index.html" aria-label="KOTA Web Design トップページ">
+            <picture class="header__brand-picture">
+              <source media="(max-width: 768px)" srcset="img/kota-logo-sp.png" />
+              <img src="img/kota-logo-wordmark.png" alt="" width="1200" height="254" />
+            </picture>
+            <span class="header__brand-label">KOTA Web Design</span>
+          </a>
+        </p>
+
+        <!-- ハンバーガー -->
+        <button
+          class="header__toggle"
+          type="button"
+          aria-label="メニューを開く"
+          aria-expanded="false"
+          aria-controls="globalNav"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <!-- ナビ -->
+        <nav
+          class="header__nav"
+          id="globalNav"
+          aria-label="グローバルナビゲーション"
+        >
+          <ul>
+            <li><a href="#about">私について</a></li>
+            <li><a href="#service">対応内容</a></li>
+            <li><a href="#works">制作事例</a></li>
+            <li><a href="#contact">お問い合わせ</a></li>
+            <li class="header__cta-item">
+              <a class="header__cta-link" href="#contact">X・ココナラで相談</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="fv">
+        <div class="fv__inner">
+          <p class="fv__lead">オンライン販売経験 × Web制作</p>
+
+          <h1 class="fv__title">
+            <span class="fv__title-line">売る側の経験を活かした</span>
+            <span class="fv__title-line">伝わるWebサイト・LP制作</span>
+          </h1>
+
+          <p class="fv__text">
+            <span class="fv__text-line">オンライン販売約6年の購入者視点で、</span>
+            <span class="fv__text-line">魅力と安心材料が伝わるページを<br class="sp-only">丁寧に制作します。</span>
+          </p>
+
+          <div class="fv__cta">
+            <a href="#works" class="btn-primary"> 制作事例を見る </a>
+
+            <a href="https://x.com/kota_webdesign0" target="_blank" rel="noopener noreferrer" class="btn-secondary btn-x"> Xで相談する </a>
+
+            <a href="https://coconala.com/users/5870735" target="_blank" rel="noopener noreferrer" class="btn-secondary btn-coconala"> ココナラで相談する </a>
+          </div>
+
+          <ul class="fv__points" aria-label="対応内容の概要">
+            <li>
+              <span>有料Web制作</span>
+              <strong>実績1件・評価5.0</strong>
+              <small>Figmaカンプからのコーディング</small>
+            </li>
+            <li>
+              <span>公開作品</span>
+              <strong>厳選自主制作6件</strong>
+              <small>自主制作・架空案件と明記</small>
+            </li>
+            <li>
+              <span>進行方法</span>
+              <strong>チャット完結</strong>
+              <small>電話・オンライン会議は原則不要</small>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 制作事例 -->
+      <section id="works" class="works">
+        <div class="works__inner">
+          <p class="works__eyebrow">SELECTED WORKS</p>
+          <h2 class="works__title">自主制作｜Webサイト3件</h2>
+
+          <p class="works__lead">
+            実案件を想定し、構成・デザイン・実装・スマホ対応<br class="sp-only">まで制作しました。<br>
+            すべて架空の事業者を想定した自主制作であり、<br class="sp-only">実在の案件ではありません。
+          </p>
+
+          <div class="works__grid">
+            <!-- 法律事務所サイト -->
+            <a href="work-law.html" class="works__card works__card--featured">
+              <div class="works__img">
+                <span class="project-badge">自主制作・架空案件</span>
+                <img
+                  src="img/work-law.jpg"
+                  alt="法律事務所サイト制作事例"
+                  loading="lazy"
+                  width="1200"
+                  height="630"
+                />
+                <span class="works__link">詳細を見る →</span>
+              </div>
+              <div class="works__info">
+                <span class="works__category">法律事務所サイト</span>
+                <h3>福岡みらい法律事務所</h3>
+                <p>信頼感と相談導線を重視した14ページ構成</p>
+                <p class="works__period">制作目安：約4週間（14ページ構成の場合）</p>
+                <ul class="works__tags" aria-label="制作内容">
+                  <li>14ページ構成</li>
+                  <li>相談導線設計</li>
+                  <li>レスポンシブ対応</li>
+                </ul>
+              </div>
+            </a>
+
+            <!-- 不動産HP -->
+            <a
+              href="work-harbor-estate.html"
+              class="works__card works__card--featured"
+            >
+              <div class="works__img">
+                <span class="project-badge">自主制作・架空案件</span>
+                <img
+                  src="img/harbor-estate.jpg"
+                  alt="不動産会社ホームページ HARBOR ESTATEの制作事例"
+                  width="1889"
+                  height="1108"
+                  loading="lazy"
+                />
+                <span class="works__link">詳細を見る →</span>
+              </div>
+              <div class="works__info">
+                <span class="works__category">不動産会社サイト</span>
+                <h3>HARBOR ESTATE</h3>
+                <p>不動産会社ホームページ / 14ページ構成</p>
+                <p class="works__period">制作目安：約5週間（14ページ構成の場合）</p>
+                <ul class="works__tags" aria-label="制作内容">
+                  <li>物件検索画面</li>
+                  <li>売買・賃貸詳細</li>
+                  <li>レスポンシブ対応</li>
+                </ul>
+              </div>
+            </a>
+
+            <!-- 小児科クリニックHP -->
+            <a
+              href="work-pediatric-clinic.html"
+              class="works__card works__card--featured"
+            >
+              <div class="works__img">
+                <span class="project-badge">自主制作・架空案件</span>
+                <img
+                  src="img/work-pediatric-clinic-20260710.jpg"
+                  alt="小児科クリニックホームページ 姪浜みらいこどもクリニックの制作事例"
+                  loading="lazy"
+                  width="1200"
+                  height="630"
+                />
+                <span class="works__link">詳細を見る →</span>
+              </div>
+              <div class="works__info">
+                <span class="works__category">小児科クリニックサイト</span>
+                <h3>姪浜みらいこどもクリニック</h3>
+                <p>小児科クリニックHP / 7ページ構成</p>
+                <p class="works__period">制作目安：約3週間（7ページ構成の場合）</p>
+                <ul class="works__tags" aria-label="制作内容">
+                  <li>医療系デザイン</li>
+                  <li>予約導線設計</li>
+                  <li>レスポンシブ対応</li>
+                </ul>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- LP projects -->
+
+      <section class="lp">
+        <div class="lp__inner">
+          <h2 class="lp__title">自主制作｜LP3件</h2>
+
+          <p class="lp__lead">
+            問い合わせや予約までの導線を意識した、<br class="sp-only">架空サービスの自主制作LPです。
+          </p>
+
+          <div class="lp__grid">
+            <!-- 不用品回収 -->
+            <a href="lp-kurashi-clear.html" class="lp__card">
+              <div class="lp__img">
+                <span class="project-badge">自主制作・架空案件</span>
+                <img
+                  src="img/lp-kurashi-clear-20260717.jpg"
+                  alt="不用品回収LP くらしクリアの制作事例"
+                  width="1400"
+                  height="776"
+                  loading="lazy"
+                />
+              </div>
+              <div class="lp__info">
+                <h3>不用品回収LP</h3>
+                <p>無料見積もりにつなげる地域サービスLP</p>
+                <p class="lp__meta">
+                  14日<br />
+                  構成設計・デザイン・実装・スマホ対応<br />
+                  <span class="lp__note">※料金提示・作業事例・見積もり導線を意識</span>
+                </p>
+              </div>
+            </a>
+
+            <!-- 歯科矯正 -->
+            <a href="lp-dental.html" class="lp__card">
+              <div class="lp__img">
+                <span class="project-badge">自主制作・架空案件</span>
+                <img
+                  src="img/lp-dental.jpg"
+                  alt="歯科矯正LP制作事例"
+                  width="1200"
+                  height="630"
+                  loading="lazy"
+                />
+              </div>
+              <div class="lp__info">
+                <h3>歯科矯正LP</h3>
+                <p>無料相談につなげる信頼設計LP</p>
+                <p class="lp__meta">
+                  10日<br />
+                  構成設計・デザイン・実装・スマホ対応<br />
+                  <span class="lp__note">※医療系の不安解消・予約導線を意識</span>
+                </p>
+              </div>
+            </a>
+
+            <!-- 英語コーチング -->
+            <a href="lp-shift-english.html" class="lp__card">
+              <div class="lp__img">
+                <span class="project-badge">自主制作・架空案件</span>
+                <img
+                  src="img/lp-shift-english-20260717.jpg"
+                  alt="英語コーチングLP SHIFT ENGLISHの制作事例"
+                  width="1400"
+                  height="792"
+                  loading="lazy"
+                />
+              </div>
+              <div class="lp__info">
+                <h3>英語コーチングLP</h3>
+                <p>無料セッションへ導く社会人向けLP</p>
+                <p class="lp__meta">
+                  13日<br />
+                  構成設計・デザイン・実装・スマホ対応<br />
+                  <span class="lp__note">※課題整理・90日プラン・予約導線を意識</span>
+                </p>
+              </div>
+            </a>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio-cta" aria-labelledby="portfolioCtaTitle">
+        <div class="portfolio-cta__inner">
+          <p class="portfolio-cta__label">SOCIAL CONTACT</p>
+          <h2 id="portfolioCtaTitle">X・ココナラから<br class="sp-only">制作をご相談いただけます</h2>
+          <p>現在の状況・作りたいページ・ご希望の納期など、分かる範囲でお送りください。<br class="sp-only">相談から納品までチャットで進められます。</p>
+          <div class="social-cta social-cta--dark" aria-label="相談先を選ぶ">
+            <a href="https://x.com/kota_webdesign0" target="_blank" rel="noopener noreferrer" class="portfolio-cta__button">XでDM相談する <span aria-hidden="true">↗</span></a>
+            <a href="https://coconala.com/users/5870735" target="_blank" rel="noopener noreferrer" class="portfolio-cta__button portfolio-cta__button--coconala">ココナラで相談する <span aria-hidden="true">↗</span></a>
+          </div>
+          <small>それぞれ外部プロフィールへ移動します</small>
+        </div>
+      </section>
+
+      <!-- 有料Web制作実績 -->
+
+      <section class="flow">
+        <div class="flow__inner">
+          <p class="flow__eyebrow">PAID PROJECT</p>
+          <h2 class="flow__title">有料Web制作実績</h2>
+
+          <p class="flow__lead">
+            Figmaカンプからのコーディング1件を担当し、評価5.0をいただきました。<br>
+            支給されたデザインの意図をくみ取り、PC・スマホへ丁寧に実装しています。
+          </p>
+
+          <div class="flow__grid">
+            <!-- Figma -->
+            <a
+              href="https://www.figma.com/design/ngQsk5LCOFToqk7Y4QgtPi/portfolio-hair-salon?m=auto&t=NcgxtEszSoe4qUZQ-6"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flow__card"
+            >
+              <div class="flow__img">
+                <img
+                  src="img/figma-sample.jpg"
+                  alt="Figmaデザインカンプ"
+                  width="2850"
+                  height="1708"
+                  loading="lazy"
+                />
+              </div>
+              <p class="flow__label">Figmaカンプ</p>
+            </a>
+
+            <div class="flow__arrow">→</div>
+
+            <!-- コーディング -->
+            <a
+              href="https://kota-web-design.github.io/salon-prive-lp/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flow__card"
+            >
+              <div class="flow__img">
+                <img
+                  src="img/code-sample.jpg"
+                  alt="コーディング実装サイト"
+                  width="1440"
+                  height="614"
+                  loading="lazy"
+                />
+              </div>
+              <p class="flow__label">実装サイト</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+
+      <section id="about" class="about">
+        <div class="about__inner">
+          <!-- 左：KOTAのイメージイラスト -->
+          <div class="about__img">
+            <img
+              src="img/about-kota-pixel.webp"
+              alt="パソコンでWeb制作をするKOTAのイメージイラスト"
+              width="1200"
+              height="900"
+              loading="lazy"
+            />
+          </div>
+
+          <!-- 右：テキスト -->
+          <div class="about__content">
+            <h2 class="about__title">私について</h2>
+
+            <p class="about__lead">
+              <span class="about__lead-line">オンライン販売で培った購入者視点を</span>
+              <span class="about__lead-line">Webサイト・LP制作に活かします。</span>
+            </p>
+
+            <p class="about__text">
+              <span class="about__text-line">約6年間、アパレルを中心に仕入れ・撮影・出品・購入者対応・発送まで一人で行ってきました。</span>
+              <span class="about__text-line">メルカリでの出品は3,272件、プロフィール上の評価は3,060件です。</span>
+            </p>
+            <p class="about__text">
+              <span class="about__text-line">その経験を活かし、見た目だけでなく、</span>
+              <span class="about__text-line">「魅力が伝わるか」「購入前の不安を減らせるか」</span>
+              <span class="about__text-line">「次の行動へ迷わず進めるか」を確認しながら制作します。</span>
+            </p>
+
+            <div class="about__summary" aria-label="対応内容の要約">
+              <div>
+                <span>オンライン販売</span>
+                <strong>約6年</strong>
+              </div>
+              <div>
+                <span>有料Web制作</span>
+                <strong>1件・評価5.0</strong>
+              </div>
+              <div>
+                <span>公開作品</span>
+                <strong>自主制作6件</strong>
+              </div>
+            </div>
+
+            <!-- 強み -->
+            <div class="about__strength">
+              <h3>強み</h3>
+              <ul>
+                <li>商品を売ってきた経験を活かした購入者目線の情報整理</li>
+                <li>業種や目的に合わせた構成・トーン・問い合わせ導線の設計</li>
+                <li>PC / スマホの見え方まで確認する丁寧なコーディング</li>
+              </ul>
+            </div>
+
+            <!-- 実績 -->
+            <div class="about__data">
+              <h3>制作・販売実績</h3>
+              <p>
+                有料Web制作：Figmaカンプからのコーディング1件（評価5.0） /<br>
+                公開作品：現時点の品質基準で厳選した自主制作6件
+              </p>
+            </div>
+
+            <!-- スキル -->
+            <ul class="about__skills">
+              <li>HTML / CSS</li>
+              <li>JavaScript</li>
+              <li>レスポンシブ対応</li>
+              <li>Figma</li>
+              <li>LP・Webサイト</li>
+            </ul>
+
+            <!-- スタンス -->
+            <p class="about__note">
+              電話やオンライン会議は原則使用せず、文章で確認を残しながらチャットで進めます。<br>掲載内容が固まっていない段階でもご相談ください。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Service -->
+
+      <section id="service" class="service">
+        <div class="service__inner">
+          <h2 class="service__title">対応できること</h2>
+
+          <p class="service__lead">
+            LP・ホームページ制作に必要な流れをまとめて対応します。<br>
+            見た目だけで終わらせず、訪問者が内容を理解し、<br class="br-sp">次の行動へ進みやすい状態を目指します。
+          </p>
+
+          <div class="service__grid">
+            <div class="service__card">
+              <span class="service__num">01</span>
+              <h3>構成設計</h3>
+              <p>
+                ターゲット・目的・必要な情報を整理し、問い合わせや予約まで迷わず進める流れを作ります。
+              </p>
+              <ul class="service__points">
+                <li>掲載内容の整理</li>
+                <li>セクション構成の提案</li>
+                <li>問い合わせまでの導線設計</li>
+              </ul>
+            </div>
+
+            <div class="service__card">
+              <span class="service__num">02</span>
+              <h3>デザイン制作</h3>
+              <p>
+                業種やサービスの印象に合わせて、信頼感・清潔感・世界観が伝わるデザインを制作します。
+              </p>
+              <ul class="service__points">
+                <li>ファーストビュー設計</li>
+                <li>配色・余白・写真の調整</li>
+                <li>スマホでの読みやすさ確認</li>
+              </ul>
+            </div>
+
+            <div class="service__card">
+              <span class="service__num">03</span>
+              <h3>コーディング</h3>
+              <p>
+                HTML / CSS /
+                JavaScriptで実装し、PC・スマホの両方で見やすいレスポンシブ表示に対応します。
+              </p>
+              <ul class="service__points">
+                <li>セマンティックHTML</li>
+                <li>レスポンシブCSS</li>
+                <li>目的に応じたJavaScript実装</li>
+              </ul>
+            </div>
+
+            <div class="service__card">
+              <span class="service__num">04</span>
+              <h3>スマホ対応・確認</h3>
+              <p>
+                PC・スマホの見え方やリンク、余白を確認し、公開前まで丁寧に調整します。
+              </p>
+              <ul class="service__points">
+                <li>表示崩れの確認</li>
+                <li>リンク・ボタンの確認</li>
+                <li>画像説明・余白の確認</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Process -->
+
+      <section class="process">
+        <div class="process__inner">
+          <h2 class="process__title">制作の進め方</h2>
+
+          <p class="process__lead">
+            初めてWeb制作を依頼する方でも流れが分かりやすいように、確認のタイミングを挟みながら進めます。<br>
+            文章や構成が固まっていない場合も、必要な情報を一緒に整理してご提案します。
+          </p>
+
+          <div class="process__list">
+            <div class="process__item">
+              <span>手順 01</span>
+              <h3>ヒアリング</h3>
+              <p>
+                目的・ターゲット・掲載内容・参考サイトを確認し、必要な情報と優先順位を整理します。
+              </p>
+            </div>
+
+            <div class="process__item">
+              <span>手順 02</span>
+              <h3>構成・デザイン</h3>
+              <p>
+                ファーストビューや問い合わせボタンの位置を含め、ユーザー導線と業種らしさを意識してデザインします。
+              </p>
+            </div>
+
+            <div class="process__item">
+              <span>手順 03</span>
+              <h3>実装・スマホ対応</h3>
+              <p>
+                デザインに沿ってコーディングし、PC・スマホの両方で読みやすく操作しやすい状態へ調整します。
+              </p>
+            </div>
+
+            <div class="process__item">
+              <span>手順 04</span>
+              <h3>確認・納品</h3>
+              <p>
+                表示崩れ・リンク・画像・文章の見え方を確認し、修正対応後に納品いたします。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="contact">
+        <div class="contact__inner">
+          <p class="contact__label">お問い合わせ</p>
+          <h2 class="contact__title">Xまたはココナラからご相談ください</h2>
+          <p class="contact__text">
+            <span class="contact__line">Webサイト・LP制作のご相談・お見積もりは、</span>
+            <span class="contact__line">使いやすい方のメッセージからお送りください。</span>
+          </p>
+          <div class="social-cta" aria-label="相談先を選ぶ">
+            <a class="contact__button contact__button--x" href="https://x.com/kota_webdesign0" target="_blank" rel="noopener noreferrer">XでDM相談する</a>
+            <a class="contact__button contact__button--coconala" href="https://coconala.com/users/5870735" target="_blank" rel="noopener noreferrer">ココナラで相談する</a>
+          </div>
+          <p class="contact__note">相談先はどちらでも大丈夫です。電話・オンライン会議は原則不要で、相談から納品までチャットで完結します。</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__inner">
+        <p class="footer__name"><img src="img/kota-logo-wordmark.png" alt="KOTA Web Design" width="1200" height="254" /></p>
+
+        <p class="footer__copy">© 2026 KOTA All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js?v=20260710-1"></script>
+  </body>
+</html>
