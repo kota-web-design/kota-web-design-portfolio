@@ -655,6 +655,108 @@ a {
   color: #999;
 }
 
+/* ===============================
+   Needs
+=============================== */
+.needs {
+  padding: 96px 20px;
+  border-bottom: 1px solid #edf0f2;
+  background: #fff;
+}
+
+.needs__inner {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.needs__eyebrow {
+  margin-bottom: 12px;
+  color: var(--brand-gold);
+  font-family: 'Inter', 'Noto Serif JP', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+
+.needs__title {
+  margin-bottom: 18px;
+  color: var(--brand-ink);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.needs__lead {
+  margin-bottom: 42px;
+  color: #596472;
+  font-size: 15px;
+  line-height: 1.9;
+  text-align: center;
+}
+
+.needs__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.needs__card {
+  position: relative;
+  min-height: 174px;
+  padding: 28px 30px 27px;
+  border: 1px solid #e3e8ec;
+  border-radius: 12px;
+  background: #fbfcfc;
+  box-shadow: 0 14px 34px rgba(16, 37, 63, 0.04);
+}
+
+.needs__num {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: var(--brand-gold);
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+}
+
+.needs__card h3 {
+  margin-bottom: 10px;
+  color: var(--brand-navy);
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.needs__card p {
+  color: #5d6671;
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+.needs__solution {
+  margin-top: 24px;
+  padding: 28px 32px;
+  border-radius: 12px;
+  background: var(--brand-navy);
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 18px 38px rgba(16, 37, 63, 0.14);
+}
+
+.needs__solution h3 {
+  margin-bottom: 9px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.needs__solution p {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 13px;
+  line-height: 1.9;
+}
+
 
 /* ===============================
    ABOUT
@@ -2682,5 +2784,71 @@ a {
 
 .about__text-line {
     display: inline;
+  }
+
+/* ===============================
+   Needs (SP)
+=============================== */
+  .needs {
+    padding: 72px 20px;
+  }
+
+  .needs__eyebrow {
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+
+  .needs__title {
+    margin-bottom: 14px;
+    font-size: 23px;
+    line-height: 1.55;
+  }
+
+  .needs__lead {
+    margin-bottom: 30px;
+    font-size: 13px;
+    line-height: 1.85;
+    text-align: left;
+  }
+
+  .needs__grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .needs__card {
+    min-height: 0;
+    padding: 22px 20px;
+  }
+
+  .needs__num {
+    margin-bottom: 8px;
+    font-size: 10px;
+  }
+
+  .needs__card h3 {
+    margin-bottom: 7px;
+    font-size: 16px;
+  }
+
+  .needs__card p {
+    font-size: 13px;
+    line-height: 1.8;
+  }
+
+  .needs__solution {
+    margin-top: 18px;
+    padding: 24px 20px;
+    text-align: left;
+  }
+
+  .needs__solution h3 {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+
+  .needs__solution p {
+    font-size: 13px;
+    line-height: 1.8;
   }
 }
